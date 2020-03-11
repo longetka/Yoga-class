@@ -1,0 +1,14 @@
+.container {}
+.header {
+	height: 977px;
+	background-color: #f4f9f4;
+}
+.nav-bar {}
+.nav-bar-logo {}
+.nav-bar-logo__image {}
+.nav-bar-logo__title {}
+.nav-bar__nav-links {}
+.header__logo {}
+.header__title {}
+.header__subtitle {}
+.header__button {}
