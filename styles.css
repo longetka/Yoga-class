@@ -22,17 +22,60 @@ body {
 	left: 139px;
 	top: 45px;
 	width: 1300px;
+	height: 46px;
 }
-.nav-bar-logo {}
-.nav-bar-logo__image {}
+.nav-bar-logo {
+	width: 109px;
+	height: 137px;
+	background-color: #a7d7c5;
+	position: fixed;
+	top: 0;
+	left: 30px;
+	text-align: center;
+}
+.nav-bar-logo__image {
+	padding-top: 30px;
+}
 .nav-bar-logo__title {}
 .nav-bar__menu {
+	font-size: 20px;
 	list-style-type: none;
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
+	align-content: center;
+	margin-top: 8px;
 }
-.header__logo {}
+.nav-bar__menu:last-child {
+	padding-right: 90px;
+}
+.nav-bar__menu__links {
+	padding-left: 95px;
+}
+.nav-bar__menu__links a:hover {
+	background-color: #c7d9d5;
+	margin: 0px 0px;
+}
+.nav-bar__menu__links a {
+	text-decoration: none;
+	color: black;
+}
+.header-logo {
+	height: 653px;
+	width: 653px;
+	position: absolute;
+	top: 120px;
+	left: 82px;
+	background-image: url(img/Shape.png);
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+}
+.header-logo__image {
+	
+}
 .header__title {}
 .header__subtitle {}
 .header__button {}
