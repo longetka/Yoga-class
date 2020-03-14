@@ -26,8 +26,11 @@ body {
 .nav-bar-logo {}
 .nav-bar-logo__image {}
 .nav-bar-logo__title {}
-.nav-bar__nav-links {
+.nav-bar__menu {
 	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
 }
 .header__logo {}
 .header__title {}
