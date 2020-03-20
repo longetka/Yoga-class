@@ -8,25 +8,36 @@
 <body>
 	<div class="container">
 		<header class="header">
+			<!-- NAVIGATION -->
 			<nav class="nav-bar">
-				<div class="nav-bar-logo">
-					<img src="img/nav-bar-logo.png" alt="" class="nav-bar-logo__image">
-					<div class="nav-bar-logo__title"></div>
+				<div class="grid-layout-nav">
+					<div class="nav-bar__logo nav-col-1">
+						<img src="img/nav-bar-logo.png" alt="" class="nav-bar-logo__image">
+					</div>
+					<div class="nav-col-2"></div>
+					<div class="nav-bar__menu nav-col-3">
+						<div class="nav-bar-menu">
+							<a href="#" class="nav-bar__menu1 nav-bar-menu__link1">HOME</a>
+							<a href="#" class="nav-bar__menu2 nav-bar-menu__link2">ABOUT US</a>
+							<a href="#" class="nav-bar__menu3 nav-bar-menu__link3">SERVICES</a>
+							<a href="#" class="nav-bar__menu4 nav-bar-menu__link4">CONTACT US</a>
+						</div>
+					</div>
 				</div>
-				<ul class="nav-bar__menu">
-					<li class="nav-bar__menu__links"><a href="#">HOME</a></li>
-					<li class="nav-bar__menu__links"><a href="#">ABOUT US</a></li>
-					<li class="nav-bar__menu__links"><a href="#">SERVICES</a></li>
-					<li class="nav-bar__menu__links"><a href="#">CONTACT US</a></li>
-				</ul>
 			</nav>
-			<div class="header-logo">
-				<img src="img/header-logo.png" alt="" class="header-logo__image">
-			</div>
+			<!-- /NAVIGATION -->
+			<!-- MAIN HEADER -->
+	<main class="grid-layout-header">
+		<div class="header-logo ">
+			<img src="img/header-logo.png" alt="Lotus girl" class="header-logo__image">
+		</div>
 			<h1 class="header__title">YOGA CLASS</h1>
 			<p class="header__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 			Donec fringilla neque euismod volutpat cursus. Vestibulum ac pretium orci,</p>
-			<button class="header__button">JOIN NOW</button>
+			<a class="header__button">JOIN NOW</a>
+	</main>
+			<!-- /MAIN HEADER -->
+
 		</header>
 	</div>
 </body>
