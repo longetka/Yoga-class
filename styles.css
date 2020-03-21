@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap');
 @font-face {
 	font-family: 'Baloo Bhai';
-	src: local(fonts/BalooBhai-Regular.ttf) format("opentype"),
+	src: local('fonts/BalooBhai-Regular.ttf') format("opentype"),
 			 url('https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap') format("opentype");
 }
 *{
@@ -11,7 +11,10 @@
 .container{
 	font-family: 'Baloo Bhai';
 }
-
+/* HEADER */
+.header{
+	height: 975px;
+}
 /* NAV-BAR */
 
 .grid-layout-nav {
@@ -99,7 +102,7 @@
 	margin-right: 80px;
 }
 .head-col-1{
-	background-image: url(/img/Shape.png);
+	background-image: url(/img/header/Shape.png);
 	background-repeat: no-repeat;
 	background-position: 50% 50%;;
 
@@ -160,5 +163,61 @@
 	color: rgb(255, 255, 255);
 
 	padding: 10px ;
+}
+.shape-bg-blocks{
+	position: absolute;
+	background-image: url(img/choose-class/Shape-bg-blocks.png);
+	height: 748px;
+	width: 372px;
+	right: 0;
+	top: 625px;
+}
+/* CHOOSE CLASS SECTION */
 
+.choose-class{
+	height: 970px;
+	background-color: #6c9894;
+
+	display: grid;
+	grid-template: auto 1fr;
+	justify-items: center;
+	
+	color: #ffffff;
+}
+.choose-class__title{
+	font-size: 75px;
+	display: grid;
+	align-items: end;
+}
+.choose-class__subtitle{
+	font-size: 30px;
+	display: grid;
+	align-items: start;
+}
+.choose-class__block{
+	display: grid;
+	grid-template-columns: repeat(3, 385px);
+	grid-gap: 30px;
+}
+.choose-class__block__image{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.block__card{
+	display: grid;
+	grid-template-rows: 385px 1fr 1fr;
+
+	background-image: url(img/choose-class/Shape.png);
+	background-repeat: no-repeat;
+}
+.choose-class__block__title{
+	font-size: 37px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.choose-class__block__subtitle{
+	font-size: 22px;
+	text-align: center;
 }
