@@ -476,9 +476,41 @@
 /* TRAINER SECTION */
 .trainer-section {
 	display: grid;
-	
+	grid-template-rows: 420px 1fr 1fr;
+	grid-gap: 15px;
+	justify-items: center;
+
+	padding-top: 70px;
+
+	background-image: url(img/trainer/trainer-background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	color: #6c9894;
 }
-.trainer-section__image { }
-.trainer-section__image__photo { }
-.trainer-section__main-text { }
-.trainer-section__name { }
+.trainer-section__image {
+	display: grid;
+	grid-template-columns: repeat(1, minmax(420px, 1fr));
+	justify-items: center;
+	align-items: center;
+
+	background-image: url(img/trainer/Shape.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.trainer-section__image__photo {
+	height: 78%;
+}
+.trainer-section__main-text {
+	display: grid;
+	grid-template-columns: repeat(1, minmax(640px, 1200px));
+
+	font-size: 58px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+.trainer-section__name {
+	font-size: 58px;
+	display: grid;
+	align-items: center;
+}
