@@ -514,3 +514,66 @@
 	display: grid;
 	align-items: center;
 }
+/* SUBSCRIBE SECTION */
+.subscribe-section {
+	display: grid;
+	grid-template-rows: 1fr 115px 1fr;
+	justify-items: center;
+
+	background-color: #6c9894;
+}
+.subscribe-section__title {
+	font-size: 75px;
+	text-align: center;
+
+	margin-top: 130px;
+	
+}
+.subscribe-section__subtitle {
+	display: grid;
+	grid-template-columns: repeat(1, minmax(640px, 1200px));
+		
+	font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+
+}
+.subcribe-section__input {
+	
+}
+.mail-input {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+
+	padding: 17px 110px;
+	border-radius: 30px 0px 0px 30px;
+	border: none;
+
+	color: rgb(108, 152, 148);
+}
+.mail-input::placeholder{
+	color: rgba(108, 152, 148, .8);
+}
+.subscribe-button {
+	background-color: #fff;
+	text-decoration: none;
+	font-size: 25px;
+	color: #6c9894;
+	position: relative;
+	top: -3px;
+
+	padding: 12px 25px;
+	border-radius: 0px 30px 30px 0px;
+}
+/* FOOTER */
+.footer {
+	display: grid;
+	grid-template-columns: repeat();
+}
+.footer-text-block { }
+.text-block__title { }
+.text-block__subtitle { }
+.footer-block { }
+.block__title { }
+.block__list { }
+.block-title { }
